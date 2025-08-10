@@ -27,7 +27,7 @@ const IntroCard = () => {
             </motion.p>
 
             <motion.div className="mt-6 sm:mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 w-full" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.25 }}>
-              <a href={ResumeURL} target='_blank' className="inline-block bg-indigo-600 text-white px-5 py-3 rounded-lg shadow hover:shadow-lg">Download CV</a>
+              <a href={ResumeURL} download className="inline-block bg-indigo-600 text-white px-5 py-3 rounded-lg shadow hover:shadow-lg">Download CV</a>
               <a href="#contact" className="inline-block border border-indigo-600 text-indigo-600 px-5 py-3 rounded-lg hover:bg-indigo-50">Contact</a>
             </motion.div>
           </div>
